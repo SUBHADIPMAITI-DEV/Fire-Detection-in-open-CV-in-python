@@ -50,3 +50,5 @@ cv2.destroyAllWindows()
   ```
   
 Remember to replace 'frame.jpg' in Step 3 with the actual path to your image or video frame. Also, adjust the values in Steps 5 (lower and upper thresholds) based on the specific color range of the fire you are detecting.
+
+This code assumes you are working with a single image or a single frame of a video. If you want to perform fire detection on a video stream, you would need to modify the code accordingly by looping over the frames.
